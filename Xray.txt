@@ -1,0 +1,18 @@
+Xray:
+-----
+ Xray Exploratory Testing App
+--------------------------------
+
+10 BEST Exploratory Testing Tools (Jun 2023)
+
+https://www.guru99.com/exploratory-testing-tools.html
+
+---------------------------------------------------------------------------------------
+Exploratory testing
+-------------------
+
+Exploratory testing is a type of software testing in which test cases are not created in advance,
+ but testers can check system on the fly. This type of testing allows you to perform test design 
+   and execution simultaneously without much planning.
+
+  

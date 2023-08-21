@@ -1,0 +1,42 @@
+i10n and i18n Testing:
+---------------------
+
+
+
+i10n Testing :
+-----------
+
+  Localization:  It is an App which supports multilingual or Maulti languages:
+--------------
+
+
+ 1) Localization testing is a technique  to verify  s/W behaviour,accuracy and 
+   suitability for specific locations and regions.
+  
+    EX: any app using in a specific location 	
+2) This clould be anything  from a particular city to an entire country 
+   The method tests how the s/w will  behave when used in different area.
+ 
+3) This testing intends to test globally operating s/w to provide linguistic and
+   cultural relevance  for different parts of the world. 
+4) It is meant to customize a website or app according to the targeted language,
+   region,audience preference , and area-based regulation
+5) The purpose of doing the localization testing is to check appropriate
+   linguistic  and cultural aspects for a particular locale.
+6) It includes a change in the user interface or even the intial settings  according to the requirements.
+--------------------------------------------------------------------------------------------------------------------------------------------
+Check points the while doing the Lcalization Testing:
+=-----------------------------------
+ 
+1) Time and date properly displayed for target region.
+2) phone number formats are proper to target region 
+3) Curency for the target region
+4) Validation message for Input Fields.
+---------------------------------------------------------------------------
+____________
+i18n Testing:
+____________
+
+
+
+

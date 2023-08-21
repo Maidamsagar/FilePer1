@@ -1,0 +1,444 @@
+Mobile Testing:
+-------------
+ 
+
+
+
+Test clouser
+test Envinorment
+-------------------------
+levels of testing:
+------------------
+ 1)unit testing         : testing single module
+ 2)Integration testing  : testing in between two are more modules how they are
+ 3)System               : functional and non-functional
+ 4)Acceptence testing
+------------------------------------
+test Senario :
+test case    :
+------------------------------------------------
+test design Technics 
+---------------------
+desition table technic
+Boundry value analysis      : min/max value from the
+Equvaluance class partition : i/p into partitions
+State transition technic
+use case
+------------------------------------
+Bill: OTA : over the Air
+Pill:  
+--------------------------------
+updates are kept in bill
+flashing by adb Shell those in to the device
+---------------------------------------------
+DSA numbers send the update through OTA to the inactive mobiles
+-----------------------------------------------------------------
+Adhoc Testing       :if we miss/left any test senarios or some fetures
+Exploratory Testing : this doesnt have any documents/ or test case senarious
+--------------------------------------------------------------------------------
+3 types of devices:
+---prototype devices----------testing team, develop team, client-----------------
+dvt
+evt
+hvt
+-----------------------------------------------
+Requirement Traceability Matrix (RTM)
+
+It si a documnet based on requirennet we trace test cases	----------------
+-----------------------------------------------------------
+DRN -- developer release notes----
+------------------------------------------
+Static              : no execution of code
+Dynamic Testing     : with Execution of code-----BVA and EVP---- finding anf fixing the defects
+-------------------------------------------------------------------------------------
+======================================================================================================================================
+V-2
+=========================
+Platform
+--------
+Android
+IOS
+------------------
+send the updates to the Android through the OTA poo------
+------------------------------------------------------------------------------------------------
+DFS: Dynaic frequency Selection
+-------------------------------------------
+ADB Shel: communicate with the mobile : with cable
+------------------------------------------------
+ With out cable:
+----
+TCP: transfer control protocal
+ 
+for that: Client and Server Should be in the Same Server
+------------------------------------------------------------------------
+ADB Shel Commands:
+------------------
+
+After installation of s/w ADB Shell
+
+adb : will give the status of adb software whethere the s/w installed or not
+----------------------------------------------------------------------------------
+Platform : that allows s/w and services  run on the device
+---------------------------------------------------------------------------
+Mobile os:
+----------
+apple
+rim
+google
+Symbian
+ms
+---------------------------------------------------------------
+kernal mode and user mode
+----------------------------------------------------
+Types of OS:
+----------
+Batch os      :
+REal Time OS  :
+Time Sharing  :
+Distributed   :
+Embended OS   :
+N/w OS
+Mobile OS
+----------------------------------------------------
+Functions of OS:
+----------
+Security
+Job Accounting 
+Error detecting
+Controll and Over System Performance 
+memory and management
+process managemnet user
+device management user
+-------------------------------------
+device categories
+---------------
+i/p  : raw data
+o/p
+storage devices
+processing device : process raw data into information
+----------------------------------------------------
+Types of Applications:
+----
+Native Appli
+Hybrid APLLI  Combination of web and native appli
+Mobile Web
+-------------------------------------------------------------------
+Mobile Testing :
+=--------------
+FUnctionality
+compatability
+Consistency
+--------------------------------------------------------------------------
+Device Testing vs Application Testng
+------------------------------
+Device Testing:
+-----------
+1) Unit Teating  : we test h/w s/w and mechanical tasting
+2) Factory Testing:we test appli,battery,receving signals or notn/w testing , protacal Testing ,games ,s/w compatability Testing
+3) Certification Testing: if the s/w in bug free inthe unit ,factory then it will be certified thst id Certification Testing
+------------------------------------------------------------------
+Application Testing:
+-------------------
+1)functionality 2) C
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Emulater 
+ simulater
+------------------------------------------------============================================
+adb: will show the status of the s/w sdb shell
+---
+adb devices: will show the connected device(Listed for device)
+-----------
+adb shell:  to enter to the --- if want to exit : exit:
+ ---------
+   ping 8.8.8.8 : will 
+   ping google.com:
+   ping whatsapp.com
+   
+To check the connectivity we use ping command ,we are sending the packets from the server to client 
+wheather we are transmiting the data and receiving the data.
+------------------------------------------------------------------------------------
+adb devices -1: will show the no. of devices connected(  this is el)
+                we check the device name and product name.
+---------------
+-----------------------------------------------------------------------
+if we want to enter in to the mobile then adb shell:
+-------------------------------------------------------------------------------
+
+we can run multiple terminals at atime
+-----------------------------------
+
+ipconfig:(u will get config)
+----------------------------
+
+adb shell:
+---------
+we need to enter into the device:
+whoami:  display the shell/root
+------
+now we are at root/shell
+--------------------------
+to get properties 
+getprop:
+-------
+---------------------------------------------
+to get the version
+getprop "ro.build.version.release"   (will show the version of the os)
+----------------------
+adb shell getprop "ro.build.version.sdk"
+---------------------------------
+for above direct command:
+-----------------------
+adb shell getprop "ro.build.version.release"
+-------------------------------------------
+------------------------------------------------------------------------------------
+adb reboot:  (will reboot the command)
+----------
+
+adb kill-serever: at the fresh command after exit
+----------------
+adb start-server: will start the server
+----------------
+client is mobile and server is laptop.......
+necessesity of kill and start is some time the server will be offline so for that we need kill and start
+-----------------------------------------------------------------------------------------
+
+logs: where it store the output error.
+------------------------------------------
+(we cannot run the adb logcat in side the adb shell, we can only create at the out side)
+------------------------------------------
+adb logcat -v time -b all >fileName.txt:
+---------------------------------------
+ -v time is the till the presenet time
+-------
+And now open another Terminal---==== with in the adb shell
+enter:
+----should be enter at the
+ :logcat \
+ :adb logcat
+ :adb shell logcat (will get both device s/w and h/w logs)
+and press Enter==  now check in the file create in the 1st cmd(checking inside the adb shell)
+----------------
+now  insatll notepad++ in the every file in stored ----
+=====================================================================
+adb logcat *:w: will give the error codes
+--------------
+In the 2nd terminal 
+-----------------
+logcat -v time -b all | grep -i build: ( by this command we get all the details of devices like build, device name in the logcat file)
+-------------------------------------
+bills or of three types:
+---------------------
+-->user build        ---we cant get access to each and every thing
+-->user debug build  --- we can access to every thing
+-->user debugging build
+patch build is different-->
+--------------------------------
+In the 2nd terminal 
+--------------------
+logcat -v time -b all | grep -i wifidiags:
+--------------------------------
+in wifi we have 
+1)local connection
+2) bad connection
+3)good connection
+----------------------------
+svc wifi disable: (to disable wifi)
+-----------------
+svc wifi enable:
+---------------
+logcat -v time -b all | grep -i unified:
+----------------------------------------
+wpa_cli:()
+-------
+status:
+scan:
+----
+svc bluetooth disable:
+---------------------
+svc bluetooth enable:
+---------------------
+adb logcat -v time -b all KDM: (metrixs) we will get https
+-------------------------
+adb logcat -v time thread:(http internet values)
+----------------------
+adb logcat -v time -b all -v color -d: ()
+----------------------------------
+adb logcat -b all -v color -d:
+-------------------------
+adb shell dumpsys battery set level 0:
+-------------------------------------
+adb shell dumpsys battery set usb 0:
+-----------------------------------
+adb shell dumpsys battery reset:
+-------------------------------
+adb shell getprop ro.build.fingerprint:
+-------------------------------------
+adb shell getprop persist.sys.locale:
+------------------------------------
+screencap /sdcard/virtusaPic.png:
+-------------------------------THEN EXIT
+adb pull /sdcard/virtusaPic.png:
+----------------------------
+screenrecord --verbose /sdcard/VirtusaRecord1.mp4:
+---------------------------------------------
+adb pull /sdcard/VirtusaRecord1.mp4:
+-----------------------------------for non root mobiles it wont work
+Control + cto stop the screen:
+--------------------------------
+--------------------------------
+4 -terminals
+-----------
+              1) adb logcat -v time -b all >MobTesxt.txt:
+
+2nd terminal:
+------------  2)adb shell
+                        logcat -v time -b all | grep -i unified:
+3rd terminal:
+-------------
+              3) adb shell
+                         logcat -v time -b all | grep -i wifidiags:
+4th terminal:
+-------------
+              4) adb shell
+                          svc wifi disable
+                          svc wifi enable
+------------------------------------------------------------------------
+wpa_cli:
+-------
+status:
+------
+scan :
+-------------------------------------------------------------------
+---------------------------------------------------
+1)1st terminal
+-------------
+adb logcat -v time -b all >MobilApp.txt
+-----------
+next open another terminal
+2)terminal---------------
+logcat -b all -v color -d
+------------------the o/p will dispaly in the another terminal----------------
+adb disconnect:
+-------------- will disconnect everything----
+------------------------------------------------
+if we connect with usb -- it will show the DSN Number---
+----------------------------------------------------------
+tcpip-transmision control protocal and internet protocol---
+--------------------------------------------------------
+adb tcpip 5555:(give any random port number)
+-----------------Now remove the usb cable
+1) Now we need to connect to the client ip address;
+-----------------------------------------------------
+adb connect 192.168.29.64:5555
+-------------------------------Now it wont show the device addresss it will show the ip address:
+adb disconnect:
+-----------------------------
+connect through the cable:
+----------------In the adb shell:
+cd : is the directiry
+--------------
+ls: (list all the folders)
+-----------------
+cd sdcard: to enter into the sdcard
+---------
+ls: all the lists inthe sdcard
+----
+cd dcim:
+------(entering to the folder)
+ls:
+---
+cd system:
+-------
+by this we can pull the files from the client and the path also we will get easily:
+---------------------------------------------------------------------------------
+To create the file in the client side :
+-----------------------------------
+pwd: (print working directory):
+-------------------------------
+touch fileName.txt:(that will create the file)
+-----------------
+echo "hello world" >fileName.txt: (this will insert the certain data in the file)
+--------------------------------
+cat fileName.txt: (to dispaly the content in the file)
+----------------
+
+=============================================================================================================================================
+wire less debug connection :
+--------------------------
+
+
+connect the both the devices under the same network.
+--------------------------------------------------
+
+
+After that the device should be connected to the  server then 
+
+adb tcpip 6565:(any random port number)
+--------------
+this will restart the system and the now Remove the cable
+
+adb connect 192.168.1.7:6565:(mobile ip address and port number given earlier)
+-----------------------------
+
+
+if we want to connect to the multipule devices we need the wireless connection:(===============================)
+---------------------------------------------------------------------------------------------------------------
+
+adb logcat -v thread: (we will get the source code file http ids) we can also find the particular file with his thread
+--------------------
+
+=============================================================================================
+user Build is: custumer  build,finailized device-- we can see every test case 
+user debug   : we cant see every test case-- we can have full acess
+=============================================================================================
+adb shell wm size: (to get the device resolution)
+-----------------
+adb shell wm density:
+---------------------
+adb shell list pm packages:
+-------------------------
+adb shell pm list packages:
+--------------------------
+adb shell pm list packages -s:
+-----------------------------
+adb shell pm list packages -3:(third party applications)
+-----------------------------
+adb shell pm list packages -d:(main packages)
+-----------------------------
+adb shell pm list packages -e:(to eliminate packages)
+-------------------------------
+adb shell pm list packages -u:(user associated packages)
+----------------------------
+adb shell pm list packages -f:(full data of application packages)
+------------------------------
+adb shell pm list packages Amazon:(to get particular application package)
+----------------------------
+adb shell pm list permissions:(which application is having the particular permission)
+-----------------------------
+adb shell pm list permissions -d group:(the dangers groups)
+--------------------------------------
+adb shell pm list permissions -s group:(short summary of the applications)
+--------------------------------------
+adb shell settings:()
+----------------
+adb shell settings list system:(to get all the system settings)
+------------------------------
+adb shell settings get system volume_system:(will display the system volume)
+-------------------------------------------
+adb shell settings get system notification_sound:()	
+------------------------------------------------
+adb shell settings list secure:(display all the system securities)
+------------------------------
+adb shell settings get secure android id:()
+----------------------------------------
+adb shell settings get secure android_id:(to get the android id)
+----------------------------------------
+adb shell settings get secure bluetooth_address:()
+-----------------------------------------------	
+adb shell settings  list global:()
+-------------------------------
+adb shell settings get global mobile_data:()
+-----------------------------------------
+adb shell settings get global wifi_on:()
+------------------------------------

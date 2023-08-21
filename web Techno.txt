@@ -1,0 +1,141 @@
+Internet:
+-------- 
+                 It is a huge interconnected network of computers Over the gloabe.
+
+What is Website:
+----------------
+                 Collection of webPages,multimedia content identified by single domain name.
+
+what is Browser:
+----------------
+                 It is S/W application used for accessing the Website.
+                 Ex: chrome ,inter Explore, etc..,
+
+Requirements for Web Designing:
+------------------------------
+                     
+               Front End: GUI --which is seen by user.(HTML,CSS,JavaScript..)
+               BackEnd  : process happened by the server is called..(PHP,..PYthon,SQL)
+------------------------------------------------------------------------------------------------------
+
+HTML:
+----
+     This is used to describe the structure of Website
+     It is basic backBone of Website.
+     
+     It is craeting the outline of the website.(like building house)
+CSS:
+----
+     It is used to improve the appearance of webpage.
+     It makes webPage attractive.(like painting ,decorating the building).
+
+Javascript:
+----------
+           It is used todefine behaviour of webpages.
+PHP:
+----
+      It is Server side Scripting Language.
+Sql:
+---- 
+     It is used to manuplating the data from the database.
+Web HOsting:
+-----------
+      It is service which allows to post website on internet. 
+----------------------------------------------------------------------------------------------
+Web Application:
+---------------
+                It is a computer  Program the utilises we browsers and web technology to perform the task over the internet.
+                web apps demand is increasing ,because they do not required download.
+                all is to need to access the web browser.
+how it works:
+-------------
+             know about url,
+             and connect to the internet.
+needs:(components)
+-------
+        1)Web Server---------(requests from clients managaed by web servers)
+        2)Application server--(complets the requests from the client)
+        3)Databases       ---(this stores the data and retrives the data)
+Benifits:
+--------
+       advatdages in business:it alows to coonect even through the mobile web
+                              no required of instalation of soft ware
+                              easy to access if we have internet
+                              not limited to the particular browser.
+----------------------------------------------------------------------------------------------------
+
+Web Server:
+----------
+          A computer System that hosts websites.
+          Runs Web Server software.(Apache http, iis);
+                    (should connect to internet)
+
+webServer:
+----------
+            Shared hosts   : it is low trafic ,small website
+            Dedicated hosts: it is having high trafic ,and large website.
+
+       Webserver--- Web Client request ----(sends request to http server)--->web Server------------------------------------(sends http responds)->client
+
+                                                                       ^=||=====(another senario(if not present on the web server))
+
+                                                                  if not present with in the web server then contact to the (STATIC WEB SERVER)
+
+       IN some senario the( web server) will not have the satic web server then it will send (Servelet request) to the (APPLICTION Server)
+
+----------------------------------------Servelet is a java programm that runs with a web Server-----------------(contact the Application Data Store)
+                                          
+   Examples of web Server:
+---------------------------
+   1)Apache HTTP Sercer                ---- (developed by Apache Foundation 60%) Open Source Tool
+   2) Internet Information services (IIS)--(Micro Soft )
+   3) Lightpd
+   4) Sun Java System Web Srver
+   5) Jigsaw Server
+-------------------------------------------------------------------      
+Application Srever:
+------------------
+    1)A server Specifica;lly designed to run applications.
+    2)Includes both h/w and s/w that provide an environment for programs to run.
+    
+Used for:
+--------
+   1) Running web applications
+   2) Hosting a hypervisor that manages virtual machines(VMs)                     
+   3) Distributing and monitoring s/w updates.
+   4)Processing data senrt from the another server.
+
+Why we use application Server:
+------------------------------
+  1)Provides processing power and memeory memory to run demanding applications.
+  2)Also proovides the environment to run specific applications.
+
+
+ Ex:
+----
+  Cloud service that process the data on awindows machine ---> and the Linux based server may provides the web interfacefor the cloud services-->
+  BUt it cannot run on the windows application IT CAN JUST PROVIDE AN INTERFACE
+
+ At this Stage the apllication Server will process the data and return the results to the webserver 
+---------------------------------------------------------------------------------------------------------------------------------------------
+Web Server:
+----------
+   S/w that serves web content(web content -- html ,images,pdfs..etc)
+   Uses the HTTP protocol
+   Static and dynamic content
+   Used to host web pages ,blogs and build APIs
+
+
+Ex:
+server:
+----     httpd,lightpd,http-server,tomacat,iis
+-------------------------------------------------------------------------------------------------
+Types of Banking Risks
+----------------------
+ 1)Systematic and non Systematic Risk
+ 2)Credit/Default Risk
+ 3)Intrest Rate Risk
+ 4)Operational Risk
+ 5)Liquidity Risk
+ 6)Reputational Risk
+         

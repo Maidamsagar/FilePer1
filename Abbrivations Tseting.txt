@@ -1,0 +1,6 @@
+A/B Testing:
+-----------
+
+A/B testing or split testing creates at least one variant to test against a current
+webpage to ascertain which one performs better regarding agreed metrics such as revenue 
+per visitor (for e-commerce websites) or conversion rate.

@@ -1,0 +1,94 @@
+Performance Testing:   
+--------------------
+                        It ensures the S/W applications will perform well under their expected workload.
+                     -->how the application work on desired load.
+Attributes of P/T::::  
+                      1) Speed      : It checks whether the response of the application is fast or not
+                      2)Scalability : It determines the maximum load 
+                      3)Stability   : It checks if the application is stable under varying loads.
+Performance testing :  Types :                                   Tools:
+---------------------          1)Load Testing                          1)Apache JMeter
+                               2)Stress Testing                        2)AppLoader
+                               3)Endurance Testing                     3)WebLoad
+                               4)Spike Testing                         4)LoadRunner
+                               5)Volume Testing                        5)NeoLoad
+                               Scalability Testing                     6)Silk Performer.
+3)Endurance Testing :how the application perform under the long duration of load
+4)Spike Testing     : somtimes the load is varying i.e., some times load is high and sometimes less
+ 
+
+Automai Apploader testing :
+---------------------------
+                      AppLoader is a software Quality Assurance and load testing solutions of all types of applications,incliding web applications
+ 
+
+  ADVANTAGES  :  1) easy to use
+                 2) protocal indipendent
+                 3) No coading is required
+                 4) Easy maintainance of scripts
+                 5) Record the action any of the applications
+DISADVANTAGES : 
+                 1)Licensed tool 
+                 2)Required the  additions- infrastructure to generate the load.
+
+	
+______________________________
+
+                  gathering the requirements
+
+                  identify the business scenarios
+
+                  build a scenarios using scenario builder
+
+                  send scenarios to controller(apploader)
+
+                  design the scenario in the controller
+
+                  execute the test run
+
+                  monitor the test run in the injectors as well as controller
+
+                  report problem
+
+components of apploader:
+_________________________
+
+                 scenario builder-tool for creating a real-world scenario 
+
+                 controller- organizes,drives,manages and monitors the load test
+
+                 injectors-  manage rusers(real users) and generate the load
+
+                 session controller- it clones the injector machine to avoid the configuration issues using the execution
+------------------------------------------------------------------------------------------------------------------------------------
+
+Arcitecture of AppLoader
+How to Create Scripts using Scenario Builder Elements.
+
+How to  Create a test Plan and How the Execution will happen and How the AppLoader Tool Will be.
+
+
+Once the Senario is ready than we need send to the Controller than only we can plan the Test.
+**
+  Clicking on send Scenario the particular Script Which we created will go to that appLoader Machine.
+***
+   Opening the AppLoader Application
+-- ------------------------------------------------------------------
+   We can see in the AppLoader:
+--------------------------------
+  
+   how to create the test plan.
+   How the test is going 
+   Report  Analysis
+------------------------------------------------------------------
+the sent list is displaye din the 
+settings>Scenario list.
+----------------------------------------------------------------------
+Injector Machine:
+----------------
+     In this we can see how many machines are connected to apploader
+
+     (hosta and slevo machines)
+
+
+

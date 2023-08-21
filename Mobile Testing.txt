@@ -1,0 +1,226 @@
+Mobile Testing:
+-------------
+ 
+
+
+
+Test clouser
+test Envinorment
+-------------------------
+levels of testing:
+------------------
+ 1)unit testing         : testing single module
+ 2)Integration testing  : testing in between two are more modules how they are
+ 3)System               : functional and non-functional
+ 4)Acceptence testing
+------------------------------------
+test Senario :
+test case    :
+------------------------------------------------
+test design Technics 
+---------------------
+desition table technic
+Boundry value analysis      : min/max value from the
+Equvaluance class partition : i/p into partitions
+State transition technic
+use case
+------------------------------------
+Bill: OTA : over the Air
+Pill:  
+--------------------------------
+updates are kept in bill
+flashing by adb Shell those in to the device
+---------------------------------------------
+DSA numbers send the update through OTA to the inactive mobiles
+-----------------------------------------------------------------
+Adhoc Testing       :if we miss/left any test senarios or some fetures
+Exploratory Testing : this doesnt have any documents/ or test case senarious
+--------------------------------------------------------------------------------
+3 types of devices:
+---prototype devices----------testing team, develop team, client-----------------
+dvt
+evt
+hvt
+-----------------------------------------------
+Requirement Traceability Matrix (RTM)
+
+It si a documnet based on requirennet we trace test cases	----------------
+-----------------------------------------------------------
+DRN -- developer release notes----
+------------------------------------------
+Static              : no execution of code
+Dynamic Testing     : with Execution of code-----BVA and EVP---- finding anf fixing the defects
+-------------------------------------------------------------------------------------
+======================================================================================================================================
+V-2
+=========================
+Platform
+--------
+Android
+IOS
+------------------
+send the updates to the Android through the OTA poo------
+------------------------------------------------------------------------------------------------
+DFS: Dynaic frequency Selection
+-------------------------------------------
+ADB Shel: communicate with the mobile : with cable
+------------------------------------------------
+ With out cable:
+----
+TCP: transfer control protocal
+ 
+for that: Client and Server Should be in the Same Server
+------------------------------------------------------------------------
+ADB Shel Commands:
+------------------
+
+After installation of s/w ADB Shell
+
+adb : will give the status of adb software whethere the s/w installed or not
+----------------------------------------------------------------------------------
+Platform : that allows s/w and services  run on the device
+---------------------------------------------------------------------------
+Mobile os:
+----------
+apple
+rim
+google
+Symbian
+ms
+---------------------------------------------------------------
+kernal mode and user mode
+----------------------------------------------------
+Types of OS:
+----------
+Batch os      :
+REal Time OS  :
+Time Sharing  :
+Distributed   :
+Embended OS   :
+N/w OS
+Mobile OS
+----------------------------------------------------
+Functions of OS:
+----------
+Security
+Job Accounting 
+Error detecting
+Controll and Over System Performance 
+memory and management
+process managemnet user
+device management user
+-------------------------------------
+device categories
+---------------
+i/p  : raw data
+o/p
+storage devices
+processing device : process raw data into information
+----------------------------------------------------
+Types of Applications:
+----
+Native Appli
+Hybrid APLLI  Combination of web and native appli
+Mobile Web
+-------------------------------------------------------------------
+Mobile Testing :
+=--------------
+FUnctionality
+compatability
+Consistency
+--------------------------------------------------------------------------
+Device Testing vs Application Testng
+------------------------------
+Device Testing:
+-----------
+1) Unit Teating  : we test h/w s/w and mechanical tasting
+2) Factory Testing:we test appli,battery,receving signals or notn/w testing , protacal Testing ,games ,s/w compatability Testing
+3) Certification Testing: if the s/w in bug free inthe unit ,factory then it will be certified thst id Certification Testing
+------------------------------------------------------------------
+Application Testing:
+-------------------
+1)functionality 
+
+-----------------------------------------------------------------------------------------------------------------------------------
+these are virtual devices:
+-------------------------
+Emulater : we can able to produce s/w as well as os
+ simulater: in this we can able to create only the internal bhevaouir of the device
+----------------------------------------------------------------------------------------
+Dynamic Frecuency signalas(dfs) and non-dfs
+ there are 16 dfs channels 52 to 144  ----(DFS channels)
+ there are 9 non-dfs channels 32 to 165----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------============================================
+adb: will show the status of the s/w sdb shell
+---
+adb devices: will show the connected device(Listed for device)
+-----------
+adb shell:  to enter to the --- if want to exit : exit:
+ ---------
+   ping 8.8.8.8 : will 
+   ping google.com:
+   ping whatsapp.com
+   
+adb devices -1: will show the no. of devices connected(  this is el)
+---------------
+-----------------------------------------------------------------------
+if we want to enter in to the mobile then adb shell:
+-------------------------------------------------------------------------------
+
+
+adb shell:
+---------
+we need to enter into the device:
+whoami:  display the shell/root
+------
+now we are at root/shell
+--------------------------
+to get properties 
+getprop:
+-------
+---------------------------------------------
+to get the version
+getprop "ro.build.version.release"   (will show the version of the os)
+---------------------------------
+for above direct command:
+-----------------------
+adb shell getprop "ro.build.version.release"
+-------------------------------------------
+------------------------------------------------------------------------------------
+adb reboot:  (will reboot the command)
+----------
+
+adb kill-serever: at the fresh command after exit
+----------------
+adb start-server: will start the server
+----------------
+client is mobile and server is laptop.......
+necessesity of kill and start is some time the server will be offline so for that we need kill and start
+-----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+

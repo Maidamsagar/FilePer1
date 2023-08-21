@@ -1,0 +1,9 @@
+Cucumber:
+---------
+bdd--(Behaviour driven development)
+core Automation Tools :(selenium,apiumm,..etc
+
+tasks:
+-----
+  sCenario
+  

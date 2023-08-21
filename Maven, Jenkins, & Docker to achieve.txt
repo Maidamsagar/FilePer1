@@ -1,0 +1,7 @@
+Maven, Jenkins, & Docker to achieve continuous testing
+
+TestNG, & JUnit for managing test cases and generating reports.
+
+Automation testing is the best way to increase the effectiveness, efficiency and coverage of your software testing.
+
+Selenium Grid follows the Hub-Node Architecture to achieve parallel execution of test scripts.

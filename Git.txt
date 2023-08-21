@@ -1,0 +1,27 @@
+git init
+git status
+git add -A
+git commit -m "commit message"
+git remote add origin https://github.com/Maidamsagar/FilePer1.git
+
+git push -u origin master
+
+
+Git:
+----  
+       Git is a distributed version Control System (DVS)
+-----------------------------------------------------------------------
+
+       This means that - unlike SVN or CVS - it doesn't use a central server to synchronize
+----------------------------------------------------------------------------------------------
+
+Subversion, also known as SVN, is a version control system much like the Concurrent Versions System (CVS)
+---------------------------------------------------------------------------------------------------------
+
+Web based Git tools:
+---------------------
+  1)Gitlab
+  2)GitHub
+  3)Bitbucket
+
+
